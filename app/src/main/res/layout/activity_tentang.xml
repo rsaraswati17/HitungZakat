@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Tentang"
+    android:layout_weight="2"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/textGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="70dp"
+            android:layout_centerHorizontal="true"
+            android:text="Tentang Aplikasi"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/mainGrid"
+        android:columnCount="1"
+        android:rowCount="1"
+        android:columnOrderPreserved="false"
+        android:padding="14dp"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="@color/cardview_light_background"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Aplikasi : Aplikasi Hitung Zakat.\nDibuat Dengan : Android Studio.\nDibuat oleh   : Rahayu Saraswati (2016150090).\nMata kuliah   : Pemrograman Perangkat Mobile"
+        android:textStyle="italic"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60dp"
+        android:textSize="20dp"/>
+        </android.support.v7.widget.CardView>
+    </GridLayout>
+</LinearLayout>

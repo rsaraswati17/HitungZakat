@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Hitung">
+
+
+    <TextView
+        android:id="@+id/textHitung"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:text="Hitung Zakat Fitrah"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textanggota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="Jumlah anggota keluarga"
+        android:layout_marginTop="150dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textberas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@android:color/white"
+        android:text="Harga Beras *(per 1 kg)"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editAnggota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="175dp"
+        android:inputType="number" />
+    <EditText
+        android:id="@+id/editBeras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:ems="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="275dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnHitung"
+        android:layout_marginTop="360dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hitung" />
+
+    <TextView
+        android:id="@+id/textHasil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+         />
+
+
+    <TextView
+        android:id="@+id/textHasil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:text="" />
+
+
+
+
+</RelativeLayout>

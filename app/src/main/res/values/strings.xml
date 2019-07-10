@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Hitung Zakat</string>
+
+<string name="pengertian">1. Pengertian Zakat Fitrah \n
+    \nZakat Fitrah ialah zakat diri yang diwajibkan atas diri setiap individu lelakidan perempuan muslim yang berkemampuan dengan syarat-syarat yang ditetapkan.
+    \nKata Fitrah yang ada merujuk pada keadaan manusia saat baru diciptakan sehinggadengan mengeluarkan zakat ini manusia dengan izin Allah akan kembali fitrah. </string>
+<string name="syarat">2. Syarat-syarat Wajib Zakat Fitrah \n
+    \na). Beragama Islam dan Merdeka,
+   \nb). Menemui dua waktu yaitu diantara bulan Ramadhan dan Syawal walaupun hanya sesaat,
+    \nc). Mempunyai harta yang lebih dari pada kebutuhannya sehari-hari untuk dirinya dan orang-orang di bawah tanggungan pada hari raya dan malamnya.
+</string>
+    <string name="waktu">3. Waktu Pelaksanaan Zakat Fitrah \n
+        \n-Waktu Harus: bermula dari awal bulan Ramadhan sampai akhir bulan Ramadhan.
+        \n-Waktu Wajib: setelah matahari terbenam pada akhir bulan Ramadhan.
+        \n-Waktu Afdhal: setelah melaksanakan solat subuh pada hari akhir Ramadhan sampai sebelum mengerjakan sholat idul fitri.
+        \n-Waktu Makruh: melaksanakan sholat idul fitri sehingga sebelum terbenam matahari.
+        \n-Waktu Haram: setelah matahari terbenam pada hari raya Idul Fitri.
+    </string>
+    <string name="penerima">4. Yang Berhak Menerima Zakat \n
+    \n Penerima Zakat secara umum ditetapkan dalam 8 golongan/asnaf (fakir, miskin, amil, muallaf, hamba sahaya, gharimin, fisabilillah, ibnu sabil) namun menurut beberapa ulama
+        khusus untuk zakat fitrah mesti didahulukan kepada dua golongan pertama yakni fakir dan miskin. Pendapat ini disandarkan dengan alasan bahwa jumlah/nilai zakat yang sangat 
+        kecil sementara salah satu tujuannya dikelurakannya zakat fitrah adalah agar para fakir dan miskin dapat ikut merayakan hari raya dan saling berbagi sesama umat islam.
+</string>
+    <string name="wajib">5. Yang Wajib Membayar Zakat \n
+        \na). Individu yang mempunyai kelebihan makanan atau hartanya dari keperluan tanggungannya pada malam dan pagi hari raya.
+        \nb). Anak yang lahir sebelum matahari jatuh pada akhir bulan Ramadan dan hidup selepas terbenam matahari.
+        \nc). Memeluk Islam sebelum terbenam matahari pada akhir bulan Ramadan dan tetap dalam Islamnya.
+        \nd). Seseorang yang meninggal selepas terbenam matahari akhir Ramadan.
+    </string>
+</resources>
+
